@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Maintenance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(237, 242, 247);
+            color: #212529;
+            font-family: 'Inter', sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .maintenance-container {
+            text-align: center;
+            padding: 2rem;
+        }
+        h1 {
+            text-shadow: rgb(255, 255, 255) 1px 1px 0px;
+            font-family: Inter, sans-serif;
+            font-weight: 900;
+            letter-spacing: -3px;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .status {
+            font-size: 0.875rem;
+            opacity: 0.8;
+            margin-bottom: 0.5rem;
+        }
+        .message {
+            font-size: 9px;
+            margin-top: 0.5rem;
+            font-weight: 400;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div class="maintenance-container">
+        <h1>Site In Maintenance</h1>
+        <p class="status">HTTP 503 - Service Unavailable</p>
+        <p class="message">Don't worry! We're just making things awesome. We'll be back online before you can say "refresh"! 😊</p>
+    </div>
+</body>
+</html>
